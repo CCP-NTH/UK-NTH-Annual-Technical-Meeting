@@ -1,31 +1,26 @@
 # UK NTH Annual Technical Meeting 2026
 
-This repository hosts the temporary GitHub Pages site for the UK NTH Annual Technical Meeting 2026.
+The UK NTH Annual Technical Meeting brings together researchers, industry practitioners, government and funding representatives, and the wider nuclear thermal-hydraulics community.
 
-The site uses plain HTML and CSS and does not require a build step. The suggested repository name is `uk-nth-atm-2026`.
+The two-day in-person meeting will cover community strategy, national nuclear priorities, experimental facilities, industrial applications, data-driven modelling, HPC, fusion and Gen-IV reactor thermal hydraulics.
 
-## Update the programme
+## Event information
 
-Edit `index.html` directly. Programme entries are grouped by day and session inside the `#programme` section. Each agenda item uses the `programme-item` class, with optional visual tags such as `tag-invited`, `tag-flash`, `tag-break`, `tag-lunch`, `tag-dinner`, `tag-panel`, and `tag-tbc`.
+- **Dates:** 29-30 June 2026
+- **Venue:** Whitworth Art Gallery, Oxford Road, Manchester M15 6ER
+- **Organisers:** UKFN SIG-NTH and CCP-NTH
 
-After making changes, open `index.html` in a browser to check the layout before publishing.
+## Attend the meeting
 
-## Replace the draft agenda PDF
+[View the event website and draft programme](https://ccp-nth.github.io/UK-NTH-Annual-Technical-Meeting/)
 
-Place the agenda PDF in the `assets/` folder using this filename:
+[Register to attend](https://forms.office.com/e/QjzWCHUNQY)
 
-```text
-assets/UK-NTH-ATM-2026-draft-agenda.pdf
-```
+[Download the draft agenda](https://ccp-nth.github.io/UK-NTH-Annual-Technical-Meeting/assets/UK-NTH-ATM-2026-draft-agenda.pdf)
 
-Replacing the file while keeping the same filename will update the existing download button automatically. When the final agenda is ready, the button text and filename can also be updated in `index.html`.
+The programme is a draft and may be subject to minor changes.
 
-## Enable GitHub Pages
+## Contacts
 
-1. Go to **Settings → Pages** in the GitHub repository.
-2. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
-3. Select the **main** branch.
-4. Select the **/root** folder.
-5. Save the settings.
-
-GitHub will publish the site from the root-level `index.html`.
+- Wei Wang: [wei.wang@stfc.ac.uk](mailto:wei.wang@stfc.ac.uk)
+- Alex Skillen: [alex.skillen@manchester.ac.uk](mailto:alex.skillen@manchester.ac.uk)
