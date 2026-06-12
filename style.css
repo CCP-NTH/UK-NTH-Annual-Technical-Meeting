@@ -155,9 +155,12 @@ a:hover {
 
 .hero-logo {
   display: block;
-  width: clamp(9rem, 18vw, 13rem);
+  width: clamp(6.5rem, 13vw, 8.5rem);
   height: auto;
   margin-bottom: 2rem;
+  padding: 0.65rem;
+  background: var(--paper);
+  border-radius: 12px;
 }
 
 .eyebrow,
