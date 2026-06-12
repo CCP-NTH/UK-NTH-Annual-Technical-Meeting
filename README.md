@@ -6,13 +6,15 @@ The two-day in-person meeting will cover community strategy, national nuclear pr
 
 ## Event information
 
-- **Dates:** 29-30 June 2026
+- **Dates:** 29–30 June 2026
 - **Venue:** Whitworth Art Gallery, Oxford Road, Manchester M15 6ER
-- **Organisers:** UKFN SIG-NTH and CCP-NTH
+- **Organisers:** SIG-NTH / CCP-NTH, University of Manchester
 
 ## Attend the meeting
 
 [View the event website and draft programme](https://ccp-nth.github.io/UK-NTH-Annual-Technical-Meeting/)
+
+[View registration information](https://ccp-nth.github.io/UK-NTH-Annual-Technical-Meeting/registration.html)
 
 [Register to attend](https://forms.office.com/e/QjzWCHUNQY)
 

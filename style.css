@@ -153,6 +153,13 @@ a:hover {
   padding: clamp(5rem, 10vw, 8.5rem) 0 clamp(7rem, 12vw, 10rem);
 }
 
+.hero-logo {
+  display: block;
+  width: clamp(9rem, 18vw, 13rem);
+  height: auto;
+  margin-bottom: 2rem;
+}
+
 .eyebrow,
 .section-kicker {
   margin: 0 0 0.7rem;
@@ -431,6 +438,59 @@ h2 {
   border-left: 5px solid #8963ad;
 }
 
+.programme-break {
+  margin: 1.2rem 0;
+  background: #eaf5f1;
+  border-color: #c5e2d6;
+  border-left: 5px solid #4e9b78;
+}
+
+.programme-break.programme-lunch {
+  background: #f5edf6;
+  border-color: #e2cfe5;
+  border-left-color: #9c70a1;
+}
+
+.programme-break.programme-dinner {
+  background: #f1ebf8;
+  border-color: #d9caeb;
+  border-left-color: #8963ad;
+}
+
+.registration-hero .hero-content {
+  padding-top: clamp(4rem, 8vw, 6.5rem);
+  padding-bottom: clamp(5rem, 9vw, 7rem);
+}
+
+.registration-grid {
+  margin-bottom: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.registration-grid .fact-card {
+  box-shadow: none;
+}
+
+.registration-action {
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  background: var(--pale);
+  border-left: 5px solid var(--cyan);
+  border-radius: var(--radius);
+}
+
+.registration-action .button {
+  margin-top: 0.5rem;
+  color: var(--paper);
+  background: var(--navy);
+}
+
+.registration-action .button:hover {
+  color: var(--paper);
+  background: var(--navy-deep);
+}
+
 .split-layout {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
@@ -468,6 +528,10 @@ h2 {
 
 .section-dark h2 {
   color: var(--paper);
+}
+
+.section-dark a {
+  color: var(--cyan);
 }
 
 .notes-grid {
@@ -546,6 +610,10 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .registration-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .split-layout {
     grid-template-columns: 1fr;
   }
@@ -584,7 +652,8 @@ footer p {
 
   .facts-grid,
   .notes-grid,
-  .contact-grid {
+  .contact-grid,
+  .registration-grid {
     grid-template-columns: 1fr;
   }
 
