@@ -1,6 +1,6 @@
-# UK NTH Annual Technical Meeting 2026
+# CCP/SIG Nuclear Thermal Hydraulics (NTH) Annual Technical Meeting 2026
 
-The UK NTH Annual Technical Meeting brings together researchers, industry practitioners, government and funding representatives, and the wider nuclear thermal-hydraulics community.
+The CCP/SIG Nuclear Thermal Hydraulics (NTH) Annual Technical Meeting brings together researchers, industry practitioners, government and funding representatives, and the wider nuclear thermal-hydraulics community.
 
 The two-day in-person meeting will cover community strategy, national nuclear priorities, experimental facilities, industrial applications, data-driven modelling, HPC, fusion and Gen-IV reactor thermal hydraulics.
 
