@@ -150,15 +150,22 @@ a:hover {
   z-index: 1;
   width: min(calc(100% - 2rem), var(--max-width));
   margin: 0 auto;
-  padding: clamp(5rem, 10vw, 8.5rem) 0 clamp(7rem, 12vw, 10rem);
+  padding: clamp(3.5rem, 7vw, 5.75rem) 0 clamp(5.25rem, 9vw, 7rem);
+}
+
+.hero-title-row {
+  max-width: 1020px;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 3vw, 1.8rem);
 }
 
 .hero-logo {
-  display: block;
-  width: clamp(6.5rem, 13vw, 8.5rem);
+  flex: 0 0 auto;
+  width: clamp(5rem, 10vw, 7rem);
   height: auto;
-  margin-bottom: 2rem;
-  padding: 0.65rem;
+  padding: 0.55rem;
   background: var(--paper);
   border-radius: 12px;
 }
@@ -182,11 +189,11 @@ p {
 }
 
 h1 {
-  max-width: 900px;
-  margin-bottom: 1.2rem;
-  font-size: clamp(2.5rem, 7vw, 5.2rem);
-  line-height: 1.02;
-  letter-spacing: -0.045em;
+  max-width: 840px;
+  margin-bottom: 0;
+  font-size: 3.45rem;
+  line-height: 1.08;
+  letter-spacing: 0;
 }
 
 h2 {
@@ -194,7 +201,7 @@ h2 {
   color: var(--navy-deep);
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1.1;
-  letter-spacing: -0.025em;
+  letter-spacing: 0;
 }
 
 .hero-subtitle {
@@ -213,7 +220,7 @@ h2 {
 }
 
 .hero-actions {
-  margin-top: 2.2rem;
+  margin-top: 1.7rem;
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
@@ -258,7 +265,7 @@ h2 {
 .event-facts {
   position: relative;
   z-index: 2;
-  margin-top: -4.5rem;
+  margin-top: -3.5rem;
 }
 
 .section-inner {
@@ -306,7 +313,7 @@ h2 {
 }
 
 .content-section {
-  padding: clamp(4.5rem, 8vw, 7rem) 0;
+  padding: clamp(3.5rem, 6vw, 5.5rem) 0;
 }
 
 .section-tint {
@@ -331,12 +338,6 @@ h2 {
 .section-heading h2,
 .section-heading p {
   margin-bottom: 0;
-}
-
-.draft-notice {
-  flex: 0 0 auto;
-  color: var(--muted);
-  font-size: 0.9rem;
 }
 
 .legend {
@@ -365,14 +366,13 @@ h2 {
 .tag-lunch { color: #59395d; background: #eedcf0; }
 .tag-dinner { color: #4f336c; background: #e4d7f7; }
 .tag-panel { color: #713b17; background: #f3dbc8; }
-.tag-tbc { color: #5b6268; background: #e4e8ea; }
 
 .programme-day {
   margin-top: 2.5rem;
 }
 
 .programme-day + .programme-day {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 .programme-day > h3 {
@@ -385,7 +385,7 @@ h2 {
 }
 
 .session {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 .session-title {
@@ -408,7 +408,7 @@ h2 {
 
 .programme-item {
   margin-bottom: 0.55rem;
-  padding: 1rem 1.15rem;
+  padding: 0.85rem 1rem;
   display: grid;
   grid-template-columns: 8rem 1fr;
   gap: 1rem;
@@ -442,7 +442,7 @@ h2 {
 }
 
 .programme-break {
-  margin: 1.2rem 0;
+  margin: 1rem 0;
   background: #eaf5f1;
   border-color: #c5e2d6;
   border-left: 5px solid #4e9b78;
@@ -631,6 +631,10 @@ footer p {
     padding: 0.4rem 0.6rem 0.4rem 0;
   }
 
+  h1 {
+    font-size: 2.6rem;
+  }
+
   .facts-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -667,7 +671,21 @@ footer p {
   }
 
   .hero-content {
-    padding-top: 4rem;
+    padding-top: 3.25rem;
+  }
+
+  .hero-title-row {
+    align-items: flex-start;
+    gap: 0.85rem;
+  }
+
+  .hero-logo {
+    width: 4.4rem;
+    padding: 0.42rem;
+  }
+
+  h1 {
+    font-size: 2rem;
   }
 
   .hero-actions {
