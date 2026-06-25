@@ -410,6 +410,16 @@ h2 {
   text-transform: uppercase;
 }
 
+.session-title small {
+  display: block;
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
 .programme-item {
   margin-bottom: 0.55rem;
   padding: 0.85rem 1rem;
@@ -439,6 +449,11 @@ h2 {
   color: var(--muted);
   font-size: 0.9rem;
   line-height: 1.45;
+}
+
+.programme-item .chair {
+  color: var(--blue);
+  font-weight: 700;
 }
 
 .featured-item {
